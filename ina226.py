@@ -68,7 +68,7 @@ class INA226:
     __SUL = 14  # Shunt Voltage Under-Voltage
     __BOL = 13  # Bus Voltage Over-Voltage
     __BUL = 12  # Bus Voltage Under-Voltage
-    __POL = 10  # Power Over-Limit : invalid current and power data
+    __POL = 11  # Power Over-Limit : invalid current and power data
     __CNVR = 10  # Conversion Ready : Alert pin to be asserted when the __CVRF is asserted
     __AFF = 4  # Alert Function Flag :
     # determine if the Alert Function was the source
