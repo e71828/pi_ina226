@@ -104,7 +104,7 @@ class INA226:
     __GAIN_VOLTS = 0.08192  # HEX = 7FFF, LSB = 2.5 uV, An MSB = '1' denotes a negative number.
     __SHUNT_MILLIVOLTS_LSB = 0.0025
     __BUS_MILLIVOLTS_LSB = 1.25
-    __CALIBRATION_FACTOR = 0.0512
+    __CALIBRATION_FACTOR = 0.00512
     __MAX_CALIBRATION_VALUE = 0x7FFF  # Max value supported (32767 decimal)
     __MAX_CURRENT_VALUE = 0x7FFF
     __CURRENT_LSB_FACTOR = 32768
