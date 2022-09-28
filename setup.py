@@ -24,7 +24,7 @@ classifiers = ['Development Status :: 5 - Production/Stable',
                'Topic :: System :: Hardware :: Hardware Drivers']
 
 # Define required packages.
-requires = ['smbus2', 'mock']
+requires = ['smbus2']
 
 
 def read_long_description():
